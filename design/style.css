@@ -131,3 +131,71 @@ nav{
 .stat{
     text-align: center;
 }
+
+.what{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 15px;
+}
+
+.user{
+    height: 170px;
+    width: 300px;
+    border-radius: 14px;
+    padding: 24px;
+    box-shadow: -3px 4px 14px 3px rgba(0, 0, 0, 0.25);
+    padding: 24px;
+    margin: 50px;
+}
+.userx{
+    height: 170px;
+    width: 300px;
+    border-radius: 14px;
+    padding: 24px;
+    box-shadow: 0px 0px 33px -14px rgba(0, 0, 0, 0.25);
+    padding: 24px;
+    margin: 50px;
+}
+.star{
+    margin-bottom: 15px;
+}
+
+.user-title{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.user-details{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.user-img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.feeds{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-des{
+    font-size: 97px;
+    font-weight: bold;
+}
+
+.footer-title{
+    width: 530px;
+}
+
+.touch{
+    display: flex;
+    align-items: center;
+}
