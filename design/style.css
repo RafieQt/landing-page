@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    background-color: rgba(245, 248, 255, 1);
 }
 
 /* fonts  */
@@ -16,6 +17,22 @@
   font-optical-sizing: auto;
   
   font-style: normal;
+}
+
+/* common things */
+.text1{
+    color: #252432;
+}
+
+.text2{
+    color: rgba(37, 36, 50, 0.5);
+}
+.btn-vio{
+    padding: 12px 36px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
 }
 
 
@@ -42,13 +59,35 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 200px;
+    padding: 30px 200px;
 }
 
-.btn-vio{
-    padding: 12px 36px;
-    border-radius: 10px;
-    background-color: #4E47FF;
-    color: white;
-    border: none;
+.action-img{
+    height: 328px;
+    width: 403px;
+    border-radius: 48px;
+}
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 116px 220px;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 42px;
+
+}
+
+.banner-des{
+    font-size: 24px;
+}
+.bn1{
+    margin-top: 23px;
+}
+
+.launch-btn{
+    margin-top: 23px;
 }
